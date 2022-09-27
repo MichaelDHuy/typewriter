@@ -9,7 +9,7 @@ let delay = 0;
 
 for (let char of sentence) {
   setTimeout(() => {
-    process.stdout.write(char) +'/n';
+    process.stdout.write(char);
   }, delay);
   delay += 50;
 }
